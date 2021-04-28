@@ -22,6 +22,14 @@ module.exports = {
           },
         ],
       },
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/,
+        loader: 'file-loader',
+        options: {
+          outputPath: 'images',
+          publicPath: '/images',
+        },
+      },
     ],
   },
   plugins: [

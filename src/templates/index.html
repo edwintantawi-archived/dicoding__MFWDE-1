@@ -1,16 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
     <title>Restaurant Apps Starter Project</title>
-</head>
-<body>
-<h1>Restaurant Apps Starter Project</h1>
-<p>Hallo coders! Anda berhasil menjalankan starter project.</p>
-<p>Jangan lupa untuk menggunakan salah satu gambar yang berada pada ./images/heros sebagai background hero elemen</p>
-<img src="./images/heros/hero-image_1.jpg" width="450" alt="">
-<img src="./images/heros/hero-image_2.jpg" width="450" alt="">
-<img src="./images/heros/hero-image_3.jpg" width="450" alt="">
-<img src="./images/heros/hero-image_4.jpg" width="450" alt="">
-</body>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <a href="/" aria-label="CariResto" class="header__brand">
+          <img
+            src="./images/logo/logo.svg"
+            alt="CariResto"
+            class="header__logo"
+          />
+        </a>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li><a href="/" class="nav__link nav__link--active">Home</a></li>
+            <li><a href="#" class="nav__link">Favorite</a></li>
+            <li>
+              <a
+                href="https://edwintantawi.github.io"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="nav__link"
+                >About Us</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="nav__toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </header>
+    <div class="hero">
+      <div class="hero__content">
+        <h1 class="hero__title">
+          Find the best places to eat <mark>around you</mark>.
+        </h1>
+        <p class="hero__description">
+          Get a cool atmosphere for your every day to fill your day at the best
+          restaurant near you with the best available facilities, making you
+          comfortable...
+        </p>
+        <a href="#" class="hero__cta">Find Now</a>
+      </div>
+    </div>
+  </body>
 </html>
