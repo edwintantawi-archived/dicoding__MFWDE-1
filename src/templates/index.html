@@ -11,6 +11,7 @@
     <title>CariResto</title>
   </head>
   <body>
+    <a href="#main" class="skip-to-content">Skip To Content</a>
     <header class="header">
       <div class="header__content">
         <a href="/" aria-label="CariResto" class="header__brand">
@@ -19,6 +20,11 @@
             alt="CariResto"
             class="header__logo"
           />
+        </a>
+        <a href="#" class="nav__toggle">
+          <span></span>
+          <span></span>
+          <span></span>
         </a>
         <nav class="nav">
           <ul class="nav__list">
@@ -35,13 +41,9 @@
             </li>
           </ul>
         </nav>
-        <div class="nav__toggle">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
       </div>
     </header>
+    <div class="layer"></div>
     <div class="hero">
       <div class="hero__content">
         <h1 class="hero__title">
@@ -52,16 +54,20 @@
           restaurant near you with the best available facilities, making you
           comfortable...
         </p>
-        <a href="#" class="hero__cta">Find Now</a>
+        <a href="#main" class="hero__cta">Find Now</a>
       </div>
     </div>
-    <main>
+    <main id="main">
       <section class="container">
         <div class="list" id="root-content">
           <!-- render -->
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer class="footer">
+      <div class="container">
+        <p class="footer__copyright">Copyright &COPY; 2020 - CariResto</p>
+      </div>
+    </footer>
   </body>
 </html>
