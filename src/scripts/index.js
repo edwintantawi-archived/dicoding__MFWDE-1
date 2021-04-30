@@ -7,6 +7,7 @@ const navMenu = document.querySelector('.nav');
 const navToggle = document.querySelector('.nav__toggle');
 const layer = document.querySelector('.layer');
 const header = document.querySelector('.header');
+const listContent = document.querySelector('#root-content');
 
 navToggle.addEventListener('click', (e) => {
   e.preventDefault();
@@ -33,8 +34,6 @@ window.addEventListener('scroll', () => {
     header.classList.remove('header--active');
   }
 });
-
-const listContent = document.querySelector('#root-content');
 
 restaurants.forEach((restaurant) => {
   listContent.innerHTML += `
